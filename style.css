@@ -32,6 +32,7 @@ body {
 .heading {
   text-align: center;
   margin-bottom: 23px;
+  color: #240115;
 }
 
 .input_div {
@@ -56,12 +57,13 @@ body {
   border-radius: 40px;
   font-size: 15px;
   cursor: pointer;
-  border: none;
+  border: 2px solid #072138;
   outline: none;
+  background-color: #de6449;
 }
 
 #add_btn:hover {
-  background-color: #999;
+  background-color: #e4775e;
 }
 
 .task_container {
@@ -95,6 +97,7 @@ body {
   padding: 13px 0px 13px 31px;
   position: relative;
   margin-top: 10px;
+  font-weight: 600;
 }
 
 .tasks > li::before {
